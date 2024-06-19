@@ -1,0 +1,14 @@
+Task: Please create an admin panel using PHP, MySQL, HTML, CSS and JavaScript. Any framework or frontend template is allowed. Admin panel should have the following feature:
+
+    A data table with the same rows and column in the attached Excel file.
+    Add/Edit/Delete functionality
+    Data upload functionality from a CSV
+    Data Export functionality to CSV
+
+In addition to Admin panel, Create API that can read write data to the same table. The following endpoints are required for API:
+
+    GET - /getall --> will return a JSON Array with all data
+    GET - /getbydate --> will accept a form and to date to return filtered data by date
+    POST - /add --> will accept a JSON payload inside the body and add a new record
+    PUT - /update --> will accept a JSON payload inside the body and will update an existing record matched with the SKU
+    DELETE - /delete --> will delete the record by SKU
