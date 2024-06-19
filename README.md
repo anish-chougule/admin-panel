@@ -37,7 +37,7 @@ To run this project, you will need to change the following variables to your con
 
 ## Deployment
 1. Open CMD in the project directory and type the following command :
-   ```php -s localhost:8000``` to activate the PHP Server locally.
+   ```php -S localhost:8000``` to activate the PHP Server locally.
    
 2. Open the browser and visit ```"localhost:8000/index.php"``` to access the Admin-Panel webpage.
 
