@@ -84,9 +84,9 @@ After Submission, the success message is delivered. (check the database for the 
 ## DELETE -> /delete
 
 
-Set the HTTP Request to DELETE and access the delete API at ```localhost:8000/delete/ID=<Enter any ID from the Database>``` and submit.
+Set the HTTP Request to DELETE and access the delete API at ```localhost:8000/delete/SKU="<Enter any SKU from the Database>"``` and submit.
 
-![image](https://github.com/anish-chougule/admin-panel/assets/96962237/32e4c4cb-6f2b-4e4a-895a-33689623f90c)
+![image](https://github.com/anish-chougule/admin-panel/assets/96962237/68cb7e37-362a-4a4b-bb31-2a6c426f1cd4)
 
 ![image](https://github.com/anish-chougule/admin-panel/assets/96962237/39f1182a-2f05-473a-9d5b-3801b0a3e543)
 
